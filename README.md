@@ -16,7 +16,7 @@ Choose the folder for the exact device model and hardware revision. Each channel
 
 These images are for upgrading a router already running compatible OpenWrt. Do not flash them through the stock firmware's upgrade page. Check the model and hardware revision, back up your configuration, and use a wired connection and reliable power.
 
-1. Download the `*-sysupgrade.bin` and `sha256sums` from the **same** channel folder. Place them together, keep the original filename, and run:
+1. Download the `rzk-ew1200g-pro-*.bin` image and `sha256sums` from the **same** channel folder. Place them together, keep the original filename, and run:
 
    ```sh
    sha256sum -c sha256sums
